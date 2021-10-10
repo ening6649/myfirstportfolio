@@ -24,7 +24,8 @@ header a {
 
 /* why is the color not applied */
 header h1 {
-    color: brown;
+    color: red;
+    font-weight: bold;
 }
 
 header nav {
@@ -44,4 +45,25 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 
+}
+
+.hero {
+    background-image: url("../images/hero-bg.png");
+    background-size:contain ;
+    background-position: center;
+    position:relative;
+    height: 300px;
+    width: 100%;
+
+}
+
+.hero h2{
+    padding: 10px 35px;
+    color:seagreen;
+    text-align: center;
+}
+
+footer h2 {
+    text-align: center;
+    color: red;
 }
