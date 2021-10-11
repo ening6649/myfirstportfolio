@@ -75,6 +75,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap:nowrap;
+    background-image: url("../images/nav-bg.jpg");
 }
 
 .about-me h2 {
@@ -86,7 +87,35 @@ main {
     text-align: left;
     width: 80%;
     margin: 10px 15px;
+    color: white;
 
+}
+
+.applications {
+    display: flex;
+
+}
+
+.run-buddy {
+    background-image: url("../images/run-buddy.png");
+    height: 500px;
+    width: 700px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.horiseon {
+    background-image: url("../images/horiseon.png");
+    background-size: contain;
+    background-position: center;
+    height: 350px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+
+.applications div {
+    margin: 10px 15px;
 }
 
 .contact-me {
