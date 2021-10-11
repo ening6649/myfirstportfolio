@@ -114,8 +114,15 @@ main {
     background-repeat: no-repeat;
 }
 
-.applications div {
+.applications article {
+    width: 80%;
     margin: 10px 15px;
+}
+
+
+.applications article div {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-me {
