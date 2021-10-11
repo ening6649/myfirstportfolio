@@ -24,7 +24,7 @@ header a {
 
 /* why is the color not applied */
 header h1 {
-    color: red;
+    color: seagreen;
     font-weight: bold;
 }
 
@@ -49,21 +49,71 @@ header nav ul li a {
 
 .hero {
     background-image: url("../images/hero-bg.png");
-    background-size:contain ;
+    background-size:contain;
     background-position: center;
+    background-repeat: no-repeat;
     position:relative;
-    height: 300px;
-    width: 100%;
+    height: 600px;
+    
 
 }
 
 .hero h2{
-    padding: 10px 35px;
+    padding: 500px 35px 25px 35px;
     color:seagreen;
-    text-align: center;
+    text-align: right;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+}
+
+.about-me h2 {
+    padding: 20px, 35px ;
+}
+
+.about-me p {
+    padding: 20px, 35px;
+    text-align: left;
+
+}
+
+.contact-me {
+    display:flex;
+}
+
+.contact-me ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+
+.contact-me ul li {
+    
+    padding: 10px 55px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color:green;
+    list-style: none;
+    text-decoration: underline;
+}
+
+main section h2 {
+    color:black;
+    border-right: 10px solid darkgrey;
 }
 
 footer h2 {
     text-align: center;
-    color: red;
+    color: seagreen;
 }
