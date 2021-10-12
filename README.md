@@ -19,4 +19,5 @@
 * font size adjusted 
 * background and banner pictures adjust to screen size 
 * sections adjust to screen size 
-
+## Link to my website https://ening6649.github.io/myfirstportfolio/
+## screenshot ./assets/images/screenshot.png
