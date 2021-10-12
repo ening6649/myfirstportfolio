@@ -147,6 +147,10 @@ main {
     list-style: none;
     text-decoration: underline;
 }
+/*  */
+.contact-me ul li:hover {
+    opacity: 0;
+}
 
 main section h2 {
     color:black;
@@ -158,4 +162,51 @@ main section h2 {
 footer h2 {
     text-align: center;
     color: seagreen;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    .about-me p {
+        font-size: 20px;
+    }
+    .hero h2 {
+        text-align: start;
+        
+    }
+    .contact-me ul li {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    /*  */
+    .applications article div a {
+        font-size: 24;
+        color:coral;
+    }
+    main section h2 {
+        font-size: 1.5vw;
+    }
 }
