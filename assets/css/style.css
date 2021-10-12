@@ -22,7 +22,7 @@ header a {
     color:black;
 }
 
-/* why is the color not applied */
+
 header h1 {
     color: seagreen;
     font-weight: bold;
@@ -157,6 +157,7 @@ main section h2 {
     border-right: 10px solid darkgrey;
     padding: 25px 30px;
     width: 20%;
+    
 }
 
 footer h2 {
