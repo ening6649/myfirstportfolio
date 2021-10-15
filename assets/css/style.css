@@ -151,6 +151,10 @@ main {
 .contact-me ul li:hover {
     opacity: 0;
 }
+/* 
+.contact-me ul li:hover::after {
+    /* acontent:  ; */
+/* } */
 
 main section h2 {
     color:black;
@@ -198,16 +202,21 @@ footer h2 {
 }
 
 @media screen and (max-width: 758px) {
-
+    
 }
 
 @media screen and (max-width: 575px) {
     /*  */
-    .applications article div a {
-        font-size: 24;
-        color:coral;
-    }
-    main section h2 {
-        font-size: 1.5vw;
-    }
+    
+   
+    
+}
+.m-app {
+    font-size: 1.5vw;
+}
+
+.applications article div a {
+    font-size: 24;
+    color: black;
+    text-decoration: none;
 }
