@@ -11,9 +11,6 @@ header {
     background-color: darkgray;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    z-index: 99;
     padding: 20px 35px;
 }
 
