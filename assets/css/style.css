@@ -93,7 +93,10 @@ main {
 
 .applications {
     display: flex;
+}
 
+.m-app {
+    font-size: 1.5vw;
 }
 
 .run-buddy {
@@ -125,6 +128,12 @@ main {
     flex-direction: column;
 }
 
+.applications article div a {
+    font-size: 24;
+    color: black;
+    text-decoration: none;
+}
+
 .contact-me {
     display:flex;
 }
@@ -147,14 +156,15 @@ main {
     list-style: none;
     text-decoration: underline;
 }
-/*  */
+
 .contact-me ul li:hover {
-    opacity: 0;
+    opacity: 0.5;
 }
-/* 
+
 .contact-me ul li:hover::after {
-    /* acontent:  ; */
-/* } */
+     content:"<-Stay tuned " ;
+     color:red;
+} 
 
 main section h2 {
     color:black;
@@ -206,17 +216,12 @@ footer h2 {
 }
 
 @media screen and (max-width: 575px) {
-    /*  */
-    
+
+    .m-app {
+        font-size: 1.5vw;
+    }
    
     
 }
-.m-app {
-    font-size: 1.5vw;
-}
 
-.applications article div a {
-    font-size: 24;
-    color: black;
-    text-decoration: none;
-}
+
