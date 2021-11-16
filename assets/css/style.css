@@ -114,6 +114,15 @@ main {
     background-repeat: no-repeat;
 }
 
+.stockanator {
+    background-image: url("../images/run-buddy.png");
+    height: 350px;
+    width: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .applications article {
     width: 80%;
     margin: 10px 15px;
