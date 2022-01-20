@@ -125,11 +125,11 @@ main {
 
 
 .fantasystockpicks {
-    background-image: url("../images/fantasystockpicks.png");
+    background-image: url("../images/fantasy.png");
     height: 350px;
     width: 500px;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
