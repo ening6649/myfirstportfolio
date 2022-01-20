@@ -123,6 +123,16 @@ main {
     background-repeat: no-repeat;
 }
 
+
+.fantasystockpicks {
+    background-image: url("../images/fantasystockpicks.png");
+    height: 350px;
+    width: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .applications article {
     width: 80%;
     margin: 10px 15px;
